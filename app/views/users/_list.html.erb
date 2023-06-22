@@ -1,0 +1,14 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-3">
+      <h1>User info</h1>
+      <p><%= image_tag @user.get_profile_image(100,100) %></p>
+      <table>
+        <tbody>
+          <tr><%= @user.name %></tr>
+          <tr><%= @user.introduction %></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
